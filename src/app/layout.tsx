@@ -15,6 +15,7 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body>
+          <div>別プロジェクトでユーザー情報を取得</div>
           <SignedOut>
             <SignInButton />
           </SignedOut>
